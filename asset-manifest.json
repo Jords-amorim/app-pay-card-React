@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/app-pay-card-React/static/css/main.77beb9f9.chunk.css",
+    "main.js": "/app-pay-card-React/static/js/main.f488fb8d.chunk.js",
+    "main.js.map": "/app-pay-card-React/static/js/main.f488fb8d.chunk.js.map",
+    "runtime-main.js": "/app-pay-card-React/static/js/runtime-main.15af071b.js",
+    "runtime-main.js.map": "/app-pay-card-React/static/js/runtime-main.15af071b.js.map",
+    "static/js/2.3f9db6d0.chunk.js": "/app-pay-card-React/static/js/2.3f9db6d0.chunk.js",
+    "static/js/2.3f9db6d0.chunk.js.map": "/app-pay-card-React/static/js/2.3f9db6d0.chunk.js.map",
+    "index.html": "/app-pay-card-React/index.html",
+    "static/css/main.77beb9f9.chunk.css.map": "/app-pay-card-React/static/css/main.77beb9f9.chunk.css.map",
+    "static/js/2.3f9db6d0.chunk.js.LICENSE.txt": "/app-pay-card-React/static/js/2.3f9db6d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15af071b.js",
+    "static/js/2.3f9db6d0.chunk.js",
+    "static/css/main.77beb9f9.chunk.css",
+    "static/js/main.f488fb8d.chunk.js"
+  ]
+}
