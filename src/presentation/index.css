@@ -79,10 +79,12 @@ img {
 
   }
   .reactModalContent {
-    width: 40%;
+    width: 100%;
+    max-width: 500px;
     height: 300px;
     background: #dfdfec; 
     color: #dddfee;
+    border-radius: 4px;
   }
   
   .reactModalHeader{
@@ -94,17 +96,19 @@ img {
     align-items: center;
   }
 
+  .reactModalHeader > h2 > span {
+    color:#d2e23c; 
+    margin-left: 20px;
+  }
+
   .reactModalHeader > button {
     cursor: pointer;
     background: #202142; 
     border: none;
     color: #dddfee;
     font-size: 20px;
-  }
-  .reactModalHeader > h2 > span {
-    color:#d2e23c; 
-    margin-left: 20px;
-  }
+    transition: 0.025s ease; 
+  }  
 
   .reactModalHeader > button:hover {
     border: 2px solid #aeb2d1;
@@ -150,6 +154,7 @@ img {
     font-size: 18px;
     border-radius: 4px;
     font-weight: border;
+    transition: 0.2s ease; 
   }
 
   .formNewTranscation > button:hover {

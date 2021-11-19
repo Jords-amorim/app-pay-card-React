@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 
 import { getUser } from '../../useCases/listUserAPI';
 
-import {cards} from './cards.js'
+import { cards } from './cards.js'
 
 import '../../index.css'
 
@@ -55,11 +55,11 @@ const CardUser = () => {
                 className="reactModalContent"
             >
                 <div className="reactModalHeader">
-                <h2>
-                    Pagamento para
-                <span>{userSelected?.name}</span>
-                </h2>
-                <button onClick={handleCloseModalNewTransaction}>X</button>
+                    <h2>
+                        Pagamento para
+                        <span>{userSelected?.name}</span>
+                    </h2>
+                    <button onClick={handleCloseModalNewTransaction}>X</button>
                 </div>
                 <form className="formNewTranscation">
                     <input placeholder="R$ 0,00">
